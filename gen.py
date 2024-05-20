@@ -56,4 +56,4 @@ def page(repo: str, number: int):
 
 for i in range(35, 49):
     with open(f"./docs/{i:02d}.html", "w") as f:
-        f.write(page('2025-05-15-yosemite', i))
+        f.write(page('2024-05-15-yosemite', i))
